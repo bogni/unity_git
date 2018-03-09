@@ -17,8 +17,8 @@ public class bogni : MonoBehaviour {
         //Debug.Log("cam_temp="+ cam_temp);
 
         // 초기 구동시 카메라앵글 조정
-        //Camera.main.transform.position = new Vector3(9.37f, 39.27f, -45.87f);
-        Camera.main.transform.position = new Vector3(8.73f, 36.7f, -49.42f);
+        Camera.main.transform.position = new Vector3(9.37f, 39.27f, -45.87f);
+        //Camera.main.transform.position = new Vector3(8.73f, 36.7f, -49.42f);
         Camera.main.transform.localRotation = cam_temp;
     }
 	
